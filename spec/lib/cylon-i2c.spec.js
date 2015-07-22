@@ -26,7 +26,8 @@ describe("I2C", function() {
         "lsm9ds0g",
         "lsm9ds0xm",
         "lidar-lite",
-        "pca9685"
+        "pca9685",
+        "srf08"
       ];
 
       expect(i2c.drivers).to.be.eql(drivers);
